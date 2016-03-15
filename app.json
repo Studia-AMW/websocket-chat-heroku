@@ -1,0 +1,17 @@
+{
+  "name": "Websocket Chat Heroku",
+  "description": "Prostay chat oparty o websocket, napisany w języku Go, uruchomiony w chmurze Heroku.",
+  "keywords": [
+    "streaming",
+    "redis",
+    "go"
+  ],
+  "image": "heroku/go:latest",
+  "mount_dir": "src/github.com/Studia-AMW/websocket-chat-heroku",
+  "website": "http://github.com/Studia-AMW/websocket-chat-heroku",
+  "repository": "http://github.com/Studia-AMW/websocket-chat-heroku",
+  "scripts": {},
+  "addons": [
+    "heroku-redis"
+  ]
+}
